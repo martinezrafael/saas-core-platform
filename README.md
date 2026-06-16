@@ -4,7 +4,7 @@
   Plataforma SaaS multi-tenant construída com Node.js, NestJS, Next.js, DDD, Clean Architecture e IA para acelerar a criação de produtos digitais.
 </p>
 
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/node.js-22+-green" />
   <img src="https://img.shields.io/badge/typescript-5.x-blue" />
   <img src="https://img.shields.io/badge/nestjs-backend-red" />
