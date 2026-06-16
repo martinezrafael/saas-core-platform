@@ -1,6 +1,6 @@
 # SaaS Core Platform
 
-<p align="center">
+<p>
   Plataforma SaaS multi-tenant construída com Node.js, NestJS, Next.js, DDD, Clean Architecture e IA para acelerar a criação de produtos digitais.
 </p>
 
