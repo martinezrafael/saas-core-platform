@@ -1,0 +1,26 @@
+{
+  "name": "saas-core-platform",
+  "version": "1.0.0",
+  "description": "",
+  "private":"true",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nx run-many --target=dev --parallel",
+    "build": "nx run-many --target=build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.9.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "nx": "23.0.1"
+  },
+  "nx": {}
+}
