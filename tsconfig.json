@@ -6,6 +6,7 @@
     "moduleResolution": "Node",
     "strict": true,
     "baseUrl": ".",
+    "types": ["node"],
     "paths": {
       "@saas/shared/*": ["packages/shared/src/*"],
       "@saas/config/*": ["packages/config/src/*"],
