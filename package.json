@@ -6,7 +6,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "nx run-many --target=dev --parallel",
-    "build": "nx run-many --target=build"
+    "build": "nx run-many --target=build",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
