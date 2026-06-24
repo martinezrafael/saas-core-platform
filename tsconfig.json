@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "ignoreDeprecations": "6.0",
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "strict": true,
+    "baseUrl": ".",
+    "types": ["node"],
+    "paths": {
+      "@saas/shared/*": ["packages/shared/src/*"],
+      "@saas/config/*": ["packages/config/src/*"],
+      "@saas/database/*": ["packages/database/src/*"]
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["packages/**/*"],
+  "exclude": ["node_modules", "**/dist", "**/build"]
+}

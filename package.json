@@ -2,7 +2,7 @@
   "name": "saas-core-platform",
   "version": "1.0.0",
   "description": "",
-  "private":"true",
+  "private": "true",
   "main": "index.js",
   "scripts": {
     "dev": "nx run-many --target=dev --parallel",
@@ -20,7 +20,12 @@
   },
   "type": "module",
   "devDependencies": {
+    "@types/node": "^26.0.0",
     "nx": "23.0.1"
   },
-  "nx": {}
+  "nx": {},
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "zod": "^4.4.3"
+  }
 }
